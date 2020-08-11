@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+footer {
+  color: #eeeeee;
+  text-align: center;
+  padding: 25px;
+}
+
+.myContainer {
+  padding: 0px 5vw 0px 5vw;
+}
+
+.titleA {
+  justify-items: center;
+}
+
+.titleContainer * {
+  vertical-align: middle;
+}
+
+footer a {
+  color: #eeeeee;
+}
+
+.current {
+  background-color: rgb(240, 240, 240);
+}
+
+thead th {
+  position: sticky;
+
+  top: 0;
+}
+
+.newsGrid h3 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.newsCard {
+  margin: 5vh 0 5vh 0;
+  border: none;
+}
+
+@media screen and (max-width: 600px) {
+  .newsGrid {
+    margin-left: 0;
+  }
+}
+
+.globalTotals span {
+  margin: 10px;
+  padding: 5px;
+}
+
+.cImg {
+  height: 7vh;
+}
+
+table:last-child {
+  border-bottom: 2px solid #333;
+}
+
+th:hover {
+  cursor: pointer;
+}
+
+tr {
+  border-radius: 10px;
+}
